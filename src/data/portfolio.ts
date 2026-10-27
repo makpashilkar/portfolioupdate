@@ -86,11 +86,11 @@ export const portfolio: PortfolioConfig = {
   location: 'Thane, India',
   availability: 'Open to opportunities',
   interests: 'AI, web development, design, food, and creative projects',
-  resumeUrl: '', // Replace with the supplied PDF path, for example /resume.pdf.
+  resumeUrl: '/MAKARAND_PASHILKAR_RESUME_8779878628.pdf', // Replace with the supplied PDF path, for example /resume.pdf.
   socialLinks: {
-    email: '', // Replace with your real email address.
-    github: '', // Replace with your GitHub URL, for example https://github.com/your-username.
-    linkedin: '',
+    email: 'makpashilkar@gmail.com', // Replace with your real email address.
+    github: 'https://github.com/makpashilkar', // Replace with your GitHub URL, for example https://github.com/your-username.
+    linkedin: 'https://www.linkedin.com/in/makarand-pashilkar/',
     instagram: '',
   },
   seo: {
@@ -123,6 +123,19 @@ export const portfolio: PortfolioConfig = {
   ],
   experience: [
     {
+      id: 'freelance',
+      role: 'Freelance',
+      organization: 'Madhura Puranpoli',
+      startDate: 'Feb 2026',
+      endDate: 'Present',
+      summary: 'Maintain and enhance an existing e-commerce website by implementing AI-assisted code changes and updating storefront features based on business requirements. Support online ordering workflows for a live business, collaborate with the owner to improve the customer experience, and create AI-assisted social media content and promotional videos to increase online visibility and drive customer orders.',
+      responsibilities: ['Maintain and enhance an existing e-commerce website by implementing AI-assisted code changes and updating storefront features based on business requirements. Support online ordering workflows for a live business, collaborate with the owner to improve the customer experience, and create AI-assisted social media content and promotional videos to increase online visibility and drive customer orders.'],
+      skills: ['Requirements analysis', 'Next.js', 'React', 'REST APIs', 'Tailwind CSS', 'JavaScript','AI-Assisted Development'],
+      type: 'Part-time',
+      location: 'India',
+      published: true,
+    },
+    {
       id: 'infosys-systems-engineer',
       role: 'Systems Engineer',
       organization: 'Infosys',
@@ -135,14 +148,49 @@ export const portfolio: PortfolioConfig = {
       location: 'India',
       published: true,
     },
+    
     // Add another entry here by copying the documented Experience shape above.
   ],
   projects: [
-    { id: 'kirana-connect', name: 'Kirana Connect', description: 'Local grocery and vendor management platform with responsive web workflows for managing local grocery inventory and customer orders.', thumbnail: '', thumbnailAlt: 'Kirana Connect project preview', tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'], category: 'Web platform', featured: true, published: true, status: 'Project work' },
-    { id: 'portfolio-website', name: 'Portfolio website', description: 'Responsive personal portfolio work focused on React.js, Tailwind CSS, JavaScript, and a pixel-art interface.', thumbnail: '', thumbnailAlt: 'Portfolio website project preview', tags: ['React.js', 'Tailwind CSS', 'JavaScript'], category: 'Web', featured: true, published: true, status: 'Project work' },
+    {
+  id: 'goodboygrub',
+  name: 'Good Boy Grub',
+  description: 'A full-stack food ordering platform featuring product browsing, cart and checkout workflows, an admin dashboard, kitchen display system (KDS), order status management, and email notifications.',
+  thumbnail: '/project-gbg-ss.png',
+  thumbnailAlt: 'Pixel-art food plate representing the Good Boy Grub online ordering platform',
+  tags: ['Next.js', 'React', 'TypeScript', 'Supabase', 'KDS', 'Resend'],
+  category: 'Development',
+  featured: true,
+  published: true,
+  status: 'In Development | Dev Deployed'
+},
+{
+  id: 'panna',
+  name: 'Panna',
+  description: 'A browser-based social media carousel creator with live slide previews, customizable themes, colors and fonts, responsive editing layouts, automatic draft saving, and high-resolution PNG and ZIP exports.',
+  thumbnail: '/panna-ss.png',
+  thumbnailAlt: 'Pixel-art carousel slides representing the Panna social media design tool',
+  tags: ['React', 'JavaScript', 'Vite', 'html2canvas', 'JSZip', 'PWA'],
+  category: 'Development',
+  featured: true,
+  published: true,
+  status: 'Live'
+},
+{
+  id: 'pixel-pond',
+  name: 'Pixel Pond Portfolio',
+  description: 'An interactive developer portfolio featuring a pixel-art landscape that transitions between dawn, day, sunset, and night, with a live pixel clock, responsive navigation, skill filtering, and an expandable project showcase.',
+  thumbnail: '/pixel-pond-ss.png',
+  thumbnailAlt: 'Pixel-art pond landscape representing an interactive developer portfolio',
+  tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Intersection Observer API'],
+  category: 'Development',
+  featured: true,
+  published: true,
+  status: 'Live'
+},
+    
     { id: 'madhura-puranpoli', name: 'Madhura Puranpoli', description: 'Promotional reel and social content concept for a local food business.', thumbnail: '/project-food.svg', thumbnailAlt: 'Warm food photography-inspired pixel artwork', tags: ['Video editing', 'Social media'], category: 'Creative', featured: true, published: false, status: 'Draft concept' },
     { id: 'crt-anime-extension', name: 'CRT Anime Extension', description: 'A browser extension concept for a nostalgic CRT-inspired anime viewing effect.', thumbnail: '/project-crt.svg', thumbnailAlt: 'Pixel-art CRT monitor with anime-inspired colors', tags: ['Browser extension', 'JavaScript'], category: 'Web', featured: true, published: false, status: 'Draft concept' },
-    { id: 'goodboygrub', name: 'GoodBoyGrub', description: 'Food business branding and digital presence concept for a local restaurant.', thumbnail: '/project-grub.svg', thumbnailAlt: 'Pixel-art plate of colorful food', tags: ['Branding', 'Marketing'], category: 'Creative', featured: true, published: false, status: 'Draft concept' },
     // Add another project here by copying the documented Project shape above.
   ],
 };
