@@ -96,7 +96,7 @@ export const portfolio: PortfolioConfig = {
   seo: {
     title: 'Makarand pashilkar — Frontend Developer & Creator',
     description: 'The portfolio of Makarand pashilkar: a frontend developer, creator, and problem solver building web experiences that feel alive.',
-    siteUrl: '',
+    siteUrl: 'https://makpashilkar.vercel.app/',
     ogImage: '',
   },
   visibility: {
