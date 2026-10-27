@@ -160,6 +160,8 @@ export const portfolio: PortfolioConfig = {
   thumbnailAlt: 'Pixel-art food plate representing the Good Boy Grub online ordering platform',
   tags: ['Next.js', 'React', 'TypeScript', 'Supabase', 'KDS', 'Resend'],
   category: 'Development',
+  liveUrl: 'https://goodboygrub.vercel.app/',
+  sourceUrl: 'https://github.com/makpashilkar/goodboygrub',
   featured: true,
   published: true,
   status: 'In Development | Dev Deployed'
@@ -172,6 +174,8 @@ export const portfolio: PortfolioConfig = {
   thumbnailAlt: 'Pixel-art carousel slides representing the Panna social media design tool',
   tags: ['React', 'JavaScript', 'Vite', 'html2canvas', 'JSZip', 'PWA'],
   category: 'Development',
+  liveUrl: 'https://panna-editor.vercel.app/',
+  sourceUrl: 'https://github.com/makpashilkar/panna',
   featured: true,
   published: true,
   status: 'Live'
@@ -184,6 +188,8 @@ export const portfolio: PortfolioConfig = {
   thumbnailAlt: 'Pixel-art pond landscape representing an interactive developer portfolio',
   tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Intersection Observer API'],
   category: 'Development',
+  liveUrl: 'https://makpashilkar.vercel.app/',
+  sourceUrl: 'https://github.com/makpashilkar/portfolioupdate',
   featured: true,
   published: true,
   status: 'Live'
