@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+<title id="title">A pixel-art lake at dusk</title><desc id="desc">Layered mountains, a sunset lake, distant homes, a lantern-lit dock and lakeside plants.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#14294f"/><stop offset=".47" stop-color="#46527d"/><stop offset=".72" stop-color="#e48778"/><stop offset="1" stop-color="#f6ac75"/></linearGradient>
+ <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#287391"/><stop offset=".4" stop-color="#0d506f"/><stop offset="1" stop-color="#061f3b"/></linearGradient>
+ <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#3c6182"/><stop offset="1" stop-color="#1b3e5e"/></linearGradient>
+ <linearGradient id="mountain2" x2="0" y2="1"><stop stop-color="#173957"/><stop offset="1" stop-color="#0b263f"/></linearGradient>
+ <pattern id="water" width="170" height="48" patternUnits="userSpaceOnUse"><path d="M8 13h54v4H8zM99 29h43v3H99zM36 39h27v3H36zM149 8h15v3h-15z" fill="#7ed0dc" opacity=".3"/><path d="M72 24h19v3H72z" fill="#b9e5df" opacity=".26"/></pattern>
+ <pattern id="planks" width="72" height="24" patternUnits="userSpaceOnUse"><path d="M0 0h70v18H0z" fill="#825537"/><path d="M0 18h70v4H0z" fill="#39271f"/><path d="M18 0v18M55 0v18" stroke="#4d3328" stroke-width="4"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1600" height="820" fill="url(#sky)"/>
+<g opacity=".28" fill="#f0b2a5"><path d="M0 210h220l35-22 60 22h170l40-27 56 27h230l40-23 80 23h260l35-25 80 25h124v35H0z"/><path d="M0 280h160l40-18 80 18h165l46-26 72 26h190l40-21 80 21h220l50-25 75 25h220v25H0z"/></g>
+<circle cx="807" cy="284" r="76" fill="#ffc877" opacity=".32" filter="url(#glow)"/><circle cx="807" cy="284" r="42" fill="#ffd080"/>
+<path d="M0 435 90 344l64 47 113-141 75 111 126-185 96 173 125-143 108 143 115-132 100 112 108-128 112 144 94-92 142 122v170H0z" fill="url(#mountain)"/>
+<path d="m55 373 112-122 31 35 69-37 70 89 125-143 39 73 54-67 92 125 92-94 61 69 90-91 46 66 99-74 39 56 82-61 74 96 118-79 104 89 106-66 54 55v197H0z" fill="url(#mountain2)"/>
+<g fill="#426c82" opacity=".72"><path d="m244 343 20-47 24 49zM397 311l30-75 35 75zM681 340l25-65 34 66zM1017 329l31-70 30 70zM1249 344l20-55 30 55z"/></g>
+<path d="M0 434h1600v386H0z" fill="url(#lake)"/><path d="M0 434h1600v386H0z" fill="url(#water)"/>
+<g fill="#ffd080"><path d="M258 409h13v25h-13zM303 390h16v44h-16zM351 406h11v28h-11zM413 396h14v38h-14zM1201 397h11v37h-11zM1260 405h15v29h-15zM1325 390h14v44h-14zM1390 407h10v27h-10z"/></g>
+<g fill="#162f4a"><path d="M250 421v-38h76v38h-12v-31h-52v31zM330 421v-29h67v29h-11v-22h-45v22zM1182 423v-42h86v42h-12v-34h-61v34zM1290 423v-30h66v30h-12v-22h-42v22zM1382 423v-39h75v39h-12v-31h-51v31z"/></g>
+<g fill="#ffcc70"><path d="M270 394h10v13h-10zM347 401h10v12h-10zM1206 391h12v13h-12zM1310 400h10v12h-10zM1408 392h10v13h-10z"/></g>
+<path d="M776 435h62v10h-62zM755 453h105v8H755zM734 472h146v7H734zM701 492h210v7H701zM676 511h258v7H676zM646 530h318v7H646z" fill="#ffc17d" opacity=".6"/>
+<g fill="#10394d"><path d="M0 472q50-46 104 0t101 0v348H0zM1370 471q68-54 133 0t97 0v349h-230z"/></g>
+<g fill="#185b58"><path d="M0 610h80l-14-42 30 40 22-57 12 58 36-35-10 50h91v214H0zM1370 618h78l-14-54 29 51 28-74 12 73 44-49-16 53h69v202h-230z"/></g>
+<g stroke="#2d8876" stroke-width="7" fill="none"><path d="M26 820q8-108 54-171M62 820q21-93 83-153M132 820q-4-115 45-184M1450 820q-5-108 48-191M1502 820q12-121 68-169M1560 820q-4-91 36-145"/></g>
+<g transform="translate(1195 392)"><path d="M0 150 72 93 238 128v145H0z" fill="#633b2c"/><path d="M-18 154 99 58l166 91-28 25-137-72-77 72z" fill="#4a2b27"/><path d="M29 173h30v47H29zM178 169h29v51h-29z" fill="#38251f"/><path d="M77 151h29v26H77zM139 151h29v26h-29z" fill="#ffd06f"/><path d="M32 125h18v18H32zM205 126h18v18h-18z" fill="#ffbd62"/><path d="M113 91h14v52h-14z" fill="#36251f"/><path d="m106 91 14-18 14 18z" fill="#3d2722"/></g>
+<g transform="translate(1040 450)"><path d="M0 0h430v44H0z" fill="url(#planks)"/><path d="M30 35h380v32H30z" fill="#5b3929"/><path d="M65 25v170h22V25M365 25v190h22V25M210 39v166h18V39" fill="#392820"/><path d="M-14 0h458v16H-14z" fill="#a16a43"/><path d="M110-88h40v84h-40z" fill="#151722"/><circle cx="130" cy="-98" r="24" fill="#111722"/><path d="M87-5q30-31 76-6l32 57H51z" fill="#161d2d"/><path d="M245-46h33v39h-33z" fill="#241a16" stroke="#ffb85f" stroke-width="7"/><path d="M239-52h45v7h-45z" fill="#241a16"/><circle cx="261" cy="-28" r="12" fill="#ffbd67" opacity=".9"/></g>
+<g fill="#267b69" stroke="#0c3d49" stroke-width="4"><path d="M210 719q34-27 68 0-21 18-68 0zM300 760q36-26 70 0-22 20-70 0zM1100 721q34-27 68 0-22 18-68 0z"/><path d="M245 719 261 705l-4 20zM1137 721l18-13-6 21z"/></g>
+<g fill="#71e0f2" opacity=".55"><path d="M483 625h94v5h-94zM610 684h147v5H610zM866 593h62v5h-62zM1000 759h172v5h-172zM380 757h115v5H380z"/></g>
+</svg>
