@@ -193,6 +193,19 @@ export const portfolio: PortfolioConfig = {
   featured: true,
   published: true,
   status: 'Live'
+},{
+  id: 'rulebeacon',
+  name: 'RuleBeacon - Prototype',
+  description: 'Built an end-to-end Retrieval-Augmented Generation (RAG) application that answers CATAN board-game rules questions using semantic search over an indexed PDF rulebook.',
+  thumbnail: '/catan-ss.png',
+  thumbnailAlt: 'RuleBeacon website screenshot',
+  tags: ['Python', 'LangChain', 'Google Gemini API', 'Tailwind CSS', 'ChromaDB','Streamlit'],
+  category: 'Development',
+  liveUrl: 'https://rulebeacon.streamlit.app/',
+  sourceUrl: 'https://github.com/makpashilkar/rulebeacon-rag',
+  featured: true,
+  published: true,
+  status: 'Live'
 },
     
     { id: 'madhura-puranpoli', name: 'Madhura Puranpoli', description: 'Promotional reel and social content concept for a local food business.', thumbnail: '/project-food.svg', thumbnailAlt: 'Warm food photography-inspired pixel artwork', tags: ['Video editing', 'Social media'], category: 'Creative', featured: true, published: false, status: 'Draft concept' },
