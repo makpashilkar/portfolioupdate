@@ -86,7 +86,7 @@ export const portfolio: PortfolioConfig = {
   location: 'Thane, India',
   availability: 'Open to opportunities',
   interests: 'AI, web development, design, food, and creative projects',
-  resumeUrl: '/MAKARAND_PASHILKAR_RESUME_8779878628.pdf', // Replace with the supplied PDF path, for example /resume.pdf.
+  resumeUrl: '/MAKARAND_PASHILKAR_RESUME_8779858628.pdf', // Replace with the supplied PDF path, for example /resume.pdf.
   socialLinks: {
     email: 'makpashilkar@gmail.com', // Replace with your real email address.
     github: 'https://github.com/makpashilkar', // Replace with your GitHub URL, for example https://github.com/your-username.
@@ -181,6 +181,19 @@ export const portfolio: PortfolioConfig = {
   status: 'Live'
 },
 {
+  id: 'rulebeacon',
+  name: 'RuleBeacon - Prototype',
+  description: 'Built an end-to-end Retrieval-Augmented Generation (RAG) application that answers CATAN board-game rules questions using semantic search over an indexed PDF rulebook.',
+  thumbnail: '/rulebeacon-ss.png',
+  thumbnailAlt: 'RuleBeacon website screenshot',
+  tags: ['Python', 'LangChain', 'Google Gemini API', 'Tailwind CSS', 'ChromaDB','Streamlit'],
+  category: 'Development',
+  liveUrl: 'https://rulebeacon.streamlit.app/',
+  sourceUrl: 'https://github.com/makpashilkar/rulebeacon-rag',
+  featured: true,
+  published: true,
+  status: 'Live'
+},{
   id: 'pixel-pond',
   name: 'Pixel Pond Portfolio',
   description: 'An interactive developer portfolio featuring a pixel-art landscape that transitions between dawn, day, sunset, and night, with a live pixel clock, responsive navigation, skill filtering, and an expandable project showcase.',
@@ -190,19 +203,6 @@ export const portfolio: PortfolioConfig = {
   category: 'Development',
   liveUrl: 'https://makpashilkar.vercel.app/',
   sourceUrl: 'https://github.com/makpashilkar/portfolioupdate',
-  featured: true,
-  published: true,
-  status: 'Live'
-},{
-  id: 'rulebeacon',
-  name: 'RuleBeacon - Prototype',
-  description: 'Built an end-to-end Retrieval-Augmented Generation (RAG) application that answers CATAN board-game rules questions using semantic search over an indexed PDF rulebook.',
-  thumbnail: '/catan-ss.png',
-  thumbnailAlt: 'RuleBeacon website screenshot',
-  tags: ['Python', 'LangChain', 'Google Gemini API', 'Tailwind CSS', 'ChromaDB','Streamlit'],
-  category: 'Development',
-  liveUrl: 'https://rulebeacon.streamlit.app/',
-  sourceUrl: 'https://github.com/makpashilkar/rulebeacon-rag',
   featured: true,
   published: true,
   status: 'Live'
