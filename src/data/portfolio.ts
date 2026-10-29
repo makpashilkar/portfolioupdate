@@ -86,7 +86,7 @@ export const portfolio: PortfolioConfig = {
   location: 'Thane, India',
   availability: 'Open to opportunities',
   interests: 'AI, web development, design, food, and creative projects',
-  resumeUrl: '/MAKARAND_PASHILKAR_RESUME_8779858628.pdf', // Replace with the supplied PDF path, for example /resume.pdf.
+  resumeUrl: '/makarand_pashilkar_resume_8779858628.pdf', // Replace with the supplied PDF path, for example /resume.pdf.
   socialLinks: {
     email: 'makpashilkar@gmail.com', // Replace with your real email address.
     github: 'https://github.com/makpashilkar', // Replace with your GitHub URL, for example https://github.com/your-username.
