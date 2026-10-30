@@ -94,7 +94,7 @@ export const portfolio: PortfolioConfig = {
     instagram: '',
   },
   seo: {
-    title: 'Makarand pashilkar — Frontend Developer & Creator',
+    title: 'Makarand pashilkar — Full Stack Developer & Creator',
     description: 'The portfolio of Makarand pashilkar: a frontend developer, creator, and problem solver building web experiences that feel alive.',
     siteUrl: 'https://makpashilkar.vercel.app/',
     ogImage: '',
